@@ -1,4 +1,4 @@
-#Semaphore on zkSync
+# Semaphore on zkSync
 
 This is a project to test Semaphore on zkSync.
 

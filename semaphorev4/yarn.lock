@@ -3748,6 +3748,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^3.2.5":
+  version: 3.2.5
+  resolution: "prettier@npm:3.2.5"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10/d509f9da0b70e8cacc561a1911c0d99ec75117faed27b95cc8534cb2349667dee6351b0ca83fa9d5703f14127faa52b798de40f5705f02d843da133fc3aa416a
+  languageName: node
+  linkType: hard
+
 "proc-log@npm:^3.0.0":
   version: 3.0.0
   resolution: "proc-log@npm:3.0.0"
@@ -5025,6 +5034,7 @@ __metadata:
     ethers: "npm:^6.9.2"
     hardhat: "npm:^2.12.4"
     mocha: "npm:^10.2.0"
+    prettier: "npm:^3.2.5"
     ts-node: "npm:^10.9.1"
     typescript: "npm:^4.9.5"
     zksync-ethers: "npm:^6.0.0"

@@ -846,6 +846,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@semaphore-protocol/contracts@npm:^4.0.0-alpha.8":
+  version: 4.0.0-alpha.8
+  resolution: "@semaphore-protocol/contracts@npm:4.0.0-alpha.8"
+  dependencies:
+    "@zk-kit/imt.sol": "npm:2.0.0-beta.5"
+  checksum: 10/69324f29feac04ae4e2f11ddf186f3fbb70ee71bc5eff261002c81e2ba1fe386abd10c1b2e008e529344aab7bcaadeb24899263137a9da83e9ee85f02fd79358
+  languageName: node
+  linkType: hard
+
 "@sentry/core@npm:5.30.0":
   version: 5.30.0
   resolution: "@sentry/core@npm:5.30.0"
@@ -1118,6 +1127,15 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: 10/211f823be990b55612e604d620acf0dc3bc942d3836bdd8da604269effabc86d98161e5947487b4e4e128f9180fc1682daae2f89ea7a4d9648fdfe52fba365fc
+  languageName: node
+  linkType: hard
+
+"@zk-kit/imt.sol@npm:2.0.0-beta.5":
+  version: 2.0.0-beta.5
+  resolution: "@zk-kit/imt.sol@npm:2.0.0-beta.5"
+  dependencies:
+    poseidon-solidity: "npm:0.0.5"
+  checksum: 10/cf2e03bcf6ec9222bbb9b9d31591f7fb6a4eb74454d8dbfb3ccc6adb1af44ff2839a2e3ffa2c4e85196faccd0aaafe4389dba616a5e5a8b400bb5c35cbac7be7
   languageName: node
   linkType: hard
 
@@ -3723,6 +3741,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"poseidon-solidity@npm:0.0.5":
+  version: 0.0.5
+  resolution: "poseidon-solidity@npm:0.0.5"
+  checksum: 10/a680d0bf8c5eeb6ea8dd1b89a0a924fb2f9a7d33919ef26197aaf0e83ddca0e9c1125f3b3dffa40340a4ed6bef6d864203ff49da6fb91c4c4604149969cafc82
+  languageName: node
+  linkType: hard
+
 "proc-log@npm:^3.0.0":
   version: 3.0.0
   resolution: "proc-log@npm:3.0.0"
@@ -4992,6 +5017,7 @@ __metadata:
     "@matterlabs/zksync-contracts": "npm:^0.6.1"
     "@nomiclabs/hardhat-etherscan": "npm:^3.1.7"
     "@openzeppelin/contracts": "npm:^4.6.0"
+    "@semaphore-protocol/contracts": "npm:^4.0.0-alpha.8"
     "@types/chai": "npm:^4.3.4"
     "@types/mocha": "npm:^10.0.1"
     chai: "npm:^4.3.7"
